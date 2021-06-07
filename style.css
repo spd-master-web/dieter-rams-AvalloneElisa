@@ -1,0 +1,358 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+    font-size: 21px;
+    color: #000;
+    font-family: 'Times New Roman';
+    background: white;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    background: #f8f8f8;
+    overflow: hidden;
+}
+
+.img-fluid {
+    width: 100%;
+    display: block;
+}
+
+.img-auto {
+    margin: 0 auto;
+    display: block;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+    font-size: 24px;
+    position: absolute;
+    right: 15px;
+}
+
+nav li {
+    display: inline-block;
+    color: #1924f8;
+}
+
+nav a {
+    display: inline-block;
+    color: #1924f8;
+}
+
+header{
+    padding:3px 10px;
+}
+
+header h1 {
+    font-family: Arial;
+    text-transform: uppercase;
+    margin: 0px;
+    font-size: 27px;
+    text-transform: uppercase;
+    padding-top: 16px;
+}
+
+.logo {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    padding: 50px 20px 20px 20px;
+}
+
+.banner {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background: url('images/dieter-rams.png');
+    overflow: hidden;
+    margin-bottom: 70px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.banner-content {
+    max-width: 470px;
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 80px;
+}
+
+
+    .banner-content h2 {
+        font-size: 46px;
+        font-weight: bold;
+        font-style: italic;
+        padding-top: 40px;
+    }
+
+.line {
+    width: 100%;
+    background: #39b54a;
+    height: 3px;
+}
+
+.banner-content h3 {
+    font-size: 24px;
+    font-weight: 400;
+    display: inline-block;
+    float: right;
+    margin-top: -17px;
+    padding-left: 18px;
+    background: #f3f3f3;
+}
+
+
+.number {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.color-num {
+    background: #ffcc00;
+}
+
+.color-num3 {
+    background: #c92424;
+}
+
+.title3 {
+    font-size: 36px;
+    margin-top: 0px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.div1 {
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-top: 70px;
+}
+
+.div2 {
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-top: 30px;
+}
+
+.contain-box {
+    padding-left: 65px;
+}
+
+.br-block {
+    display: block;
+}
+
+.color-num2 {
+    background: #e8420d;
+}
+
+.green-section {
+    background: #39b54a;
+    padding: 60px 20px;
+    overflow: hidden;
+}
+
+
+.green-section-details h2 {
+    color: white;
+    font-size: 46px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.green-section .container {
+    background: none;
+}
+
+.line2 {
+    width: 100%;
+    background: white;
+    height: 3px;
+}
+
+.green-section h3 {
+    font-size: 24px;
+    font-weight: 400;
+    display: inline-block;
+    float: right;
+    margin-top: -17px;
+    padding-left: 18px;
+    background: #39b54a;
+    color: white;
+}
+
+.space3 {
+    margin-bottom: 60px;
+}
+
+.space {
+    margin-bottom: 30px;
+}
+
+.height {
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+@media(min-width:900px) {
+    .p1 {
+        width: 510px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .two {
+        margin-left: -90px;
+        position: relative;
+    }
+}
+
+@media(min-width:768px) {
+
+    .green-section-details {
+        max-width: 470px;
+        float: right;
+        padding-right: 80px;
+    }
+}
+
+
+
+@media(max-width:767px) {
+
+    .div1{
+        margin-top:30px
+    }
+
+    header h1{
+        font-size:20px
+    }
+
+    .banner-content h2 {
+        font-size: 36px;
+    }
+
+    .banner {
+        background-position: left -118px bottom 10px !important;
+    }
+
+    .banner-content {
+        max-width: 291px;
+        padding-right:0px;
+    }
+
+    .height {
+        height: 40px;
+    }
+
+    .first-div {
+        padding-left: 70px;
+    }
+
+        .first-div img {
+            max-width: 400px;
+            margin-left: -70px;
+        }
+
+    .second-div {
+        padding-left: 70px;
+    }
+
+        .second-div img {
+            max-width: 400px;
+            float: right;
+        }
+
+    .green-section-details h2 {
+        font-size: 36px;
+    }
+
+    .third-div {
+        padding-left: 70px;
+    }
+
+        .third-div img {
+            max-width: 400px;
+            margin-left: -70px;
+        }
+
+    .banner {
+        margin-bottom: 30px;
+    }
+
+    .div1 {
+        width: 100%;
+    }
+
+    .div2 {
+        width: 100%;
+    }
+
+    .second-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .second-div > div {
+            flex: 1 1 100%;
+        }
+
+    #left {
+        order: 2;
+    }
+
+    #right {
+        order: 1;
+    }
+}
